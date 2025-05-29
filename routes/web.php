@@ -1,9 +1,3 @@
-<?php
-
-use Illuminate\Support\Facades\Route;
-
 Route::get('/', function () {
-    return response()->json([
-        'message' => 'API SmartDog rodando com sucesso!'
-    ]);
+    return response()->json(['message' => 'API SmartDog rodando com sucesso!']);
 });
